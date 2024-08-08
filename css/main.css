@@ -440,7 +440,7 @@ header .content .desc p{
   align-items: center;
 }
 .pic_of_month .detail ul li a {
-  font-size: 14px;
+  font-size: 14px; 
   color: #84829A;
 }
 .pic_of_month .people {
