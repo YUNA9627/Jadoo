@@ -31,6 +31,14 @@ main>section {
   text-align: center;
 }
 
+.hidden {
+  position: absolute;
+  left: 0;
+  top: -9999em;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
 /* 폰트 */
 body {
   font: var(--fz)/var(--lh) "Poppins", sans-serif;
@@ -764,18 +772,24 @@ footer .company p {
   color: #5E6282;
   line-height: 1.24;
 }
+footer > p{
+  margin-top: 84px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.24;
+}
 .container .outbound .sns {
   display: flex;
   gap: 25px;
   margin-bottom: 26px; 
 }
 .container .outbound .sns li {
-  display: flex;
+  width: 41px;
+  height: 41px;
+  border-radius:50%;
   background: var(--white);
-  width: 42px;
-  height: 42px;
-  border-radius: 50%;
-  box-shadow: 0 2px 10px rgba(0,0,0,.1);
+  box-shadow:0 2px 10px rgba(0,0,0,.1);
+  display: flex;
   justify-content: center;
   align-items: center;
 }
